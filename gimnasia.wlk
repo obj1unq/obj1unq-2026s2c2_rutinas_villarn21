@@ -40,3 +40,9 @@ class RemoCompeti inherits Remo{
     return (super(tiempo) - 3).max(2)
   }
 }
+/*4. Reflexión:
+Indicar un template method en la solución. Dónde está el template y cuales son los métodos hooks. Indicar quienes implementan métodos hooks
+-El template method en este caso es 'caloriasConsumidas(tiempo)' ya que su algoritmo es definido solo una vez.
+-Los metodos "hooks" serina descanso(timepo) y intensidad()
+-Los implementan:Running, Remo, Maraton y RemoCompeti
+*/
